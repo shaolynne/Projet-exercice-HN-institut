@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <title>Projet-1</title>
+</head>
+<body style="background-color: black;color: white;">
+    <div id="container">
+    <div class="containerForm">
+        <h1>Formulaire de contact</h1>
+        <form method="post" action=" http://vip.groupehn.com:20003/html/infospost.php">
+            <div class="form-group">
+            <label for="fname">Nom & prénom</label>
+            <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+        </div>
+        <div class="form-group">
+            <label for="sujet">Sujet</label>
+            <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+        </div>
+        <div class="form-group">
+            <label for="emailAddress">Email</label>
+            <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+        </div>
+        
+        <div class="form-group">
+            <label for="subject">Message</label>
+            <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+        </div>
+        
+            <input type="submit" value="Envoyer" class="btn btn-default">
+        </form>
+    </div>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
